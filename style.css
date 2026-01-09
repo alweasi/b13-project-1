@@ -4,11 +4,49 @@
   box-sizing: border-box;
 }
 
+
+/* Global styles */
+
 body {
   font-family: "Inter", sans-serif;
-  color: brown;
 }
 
-html {
-  /* font-size: 63.5%; */
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #469165;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #469165;
+  color: #469165;
+  transition: all .2s linear;
+}
+
+/* Navbar styles  */
+
+nav {
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 32px;
+  font-weight: medium;
 }

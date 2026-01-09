@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* Global styles */
 
 body {
@@ -28,10 +27,8 @@ body {
 
 .btn:hover {
   cursor: pointer;
-  background: #fff;
-  border: 1px solid #469165;
-  color: #469165;
-  transition: all .2s linear;
+  background: #27613f;
+  transition: all 0.2s linear;
 }
 
 /* Navbar styles  */
@@ -49,4 +46,73 @@ nav {
   font-size: 16px;
   margin-right: 32px;
   font-weight: medium;
+}
+
+/* Hero styles  */
+
+#hero {
+  background-image: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero .container {
+  padding: 130px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 16px;
+}
+
+.hero-top-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 6px;
+}
+
+#hero a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  padding: 8px 12px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+#hero h1 {
+  font-size: 68px;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+}
+
+#hero h1 span {
+  color: #469165;
+}
+
+#hero p {
+  color: #fff;
+  text-align: center;
+  line-height: 2.4;
+}
+.hero-btn {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 16px;
+}
+
+.hero-btn .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;   
+}
+
+.special-btn {
+  background-color: #ffffff00;
+  border: 1px solid #fff;
 }

@@ -36,7 +36,6 @@ A clean and modern landing page built using **HTML5** and **CSS3** for a fiction
 ## 👨‍💻 Author
 
 **AL Weasi**
-**Frontend Developer**
 
 ---
 
